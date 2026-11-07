@@ -1,0 +1,72 @@
+:root {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #171717;
+  background: #F8F7F4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-background: #F8F7F4;
+  --color-text: #171717;
+  --color-accent: #C45A32;
+  --color-muted: #6B6862;
+  --color-surface: #EDEAE4;
+  --color-white: #FFFFFF;
+  --color-border: #DEDAD2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
